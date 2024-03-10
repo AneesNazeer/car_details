@@ -29,6 +29,7 @@ app.post("/details",(req,res)=>{
             return console.log(err)
         }
          console.log(result)
+         
          res.send(result)
     })
     console.log(Selectdetails)
